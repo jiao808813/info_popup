@@ -47,7 +47,7 @@ class InfoPopupController {
   final VoidCallback? infoPopupDismissed;
 
   /// The [contentTitle] to show in the popup.
-  final String? contentTitle;
+  String? contentTitle;
 
   /// The [customContent] is the widget that will be custom shown in the popup.
   final Widget? Function()? customContent;
